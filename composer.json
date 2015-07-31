@@ -1,0 +1,27 @@
+{
+  "name": "tfurtado/intercom-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle to use Intercom.io service",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tiago Furtado",
+      "email": "tfurtado@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/framework-bundle": "~2.7.0",
+    "intercom/intercom-php": "~1.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7",
+    "symfony/var-dumper": "~2.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TFurtado\\Bundle\\IntercomBundle\\": ""
+    }
+  }
+}

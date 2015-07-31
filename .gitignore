@@ -1,0 +1,10 @@
+# Third-party files
+vendor/
+composer.phar
+composer.lock
+
+# Config files
+phpunit.xml
+
+# IDE files
+.idea/
