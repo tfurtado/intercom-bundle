@@ -1,0 +1,19 @@
+services:
+  # Exposed services
+  tfurtado_intercom.user.manager:
+    class: TFurtado\Bundle\IntercomBundle\User\UserManager
+    arguments:
+      - @tfurtado_intercom.client.basic_auth
+      - @tfurtado_intercom.user.serializer
+
+  # Internal services
+  tfurtado_intercom.client.basic_auth:
+    class: Intercom\IntercomBasicAuthClient
+    public: false
+    factory: [ Intercom\IntercomBasicAuthClient, factory ]
+    arguments:
+      - { app_id: %tfurtado_intercom.auth.app_id%, api_key: %tfurtado_intercom.auth.api_key% }
+
+  tfurtado_intercom.user.serializer:
+    class: TFurtado\Bundle\IntercomBundle\User\UserSerializer
+    public: false
