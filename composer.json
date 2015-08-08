@@ -11,8 +11,8 @@
     }
   ],
   "require": {
-    "php": ">=5.3.9",
-    "symfony/framework-bundle": "~2.7.0",
+    "php": ">=5.3.3",
+    "symfony/framework-bundle": "~2.3",
     "intercom/intercom-php": "~1.2.0"
   },
   "require-dev": {
