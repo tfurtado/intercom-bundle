@@ -2,6 +2,8 @@
 
 Intercom.io Bundle for the Symfony Framework.
 
+[![Build Status](https://img.shields.io/travis/tfurtado/intercom-bundle.svg?style=flat-square)](https://travis-ci.org/tfurtado/intercom-bundle)
+
 Installation
 ============
 
