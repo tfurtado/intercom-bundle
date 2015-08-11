@@ -10,6 +10,11 @@ php:
   - 7.0
   - hhvm
 
+matrix:
+  allow_failures:
+    - php: 7.0
+    - php: hhvm
+
 env:
   - SYMFONY_VERSION="2.3.*"
   - SYMFONY_VERSION="2.4.*"
@@ -20,7 +25,9 @@ env:
 install:
    - composer require symfony/framework-bundle:${SYMFONY_VERSION}
 
-matrix:
-  allow_failures:
-    - php: 7.0
-    - php: hhvm
+script:
+  - phpunit --coverage-clover=build/coverage.clover
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover build/coverage.clover
