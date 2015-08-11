@@ -3,6 +3,8 @@
 Intercom.io Bundle for the Symfony Framework.
 
 [![Build Status](https://img.shields.io/travis/tfurtado/intercom-bundle.svg?style=flat-square)](https://travis-ci.org/tfurtado/intercom-bundle)
+[![Code quality](https://img.shields.io/scrutinizer/g/tfurtado/intercom-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/tfurtado/intercom-bundle/)
+[![Code coverage](https://img.shields.io/scrutinizer/coverage/g/tfurtado/intercom-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/tfurtado/intercom-bundle/)
 
 Installation
 ============
