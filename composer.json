@@ -2,12 +2,13 @@
   "name": "tfurtado/intercom-bundle",
   "type": "symfony-bundle",
   "description": "Symfony bundle to use Intercom.io service",
-  "keywords": [],
+  "keywords": ["Intercom", "Symfony", "bundle"],
   "license": "MIT",
   "authors": [
     {
       "name": "Tiago Furtado",
-      "email": "tfurtado@gmail.com"
+      "email": "tfurtado@gmail.com",
+      "role": "Developer"
     }
   ],
   "require": {
