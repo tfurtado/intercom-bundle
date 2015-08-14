@@ -24,5 +24,10 @@
     "psr-4": {
       "TFurtado\\Bundle\\IntercomBundle\\": ""
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
   }
 }
