@@ -17,6 +17,7 @@ use DateTime;
  * This interface describe the fields you can create or update for a user.
  *
  * @author Tiago Furtado <tfurtado@gmail.com>
+ * @since  0.1.0
  */
 interface UserInterface
 {
@@ -42,7 +43,7 @@ interface UserInterface
     public function getSignedUpAt();
 
     /**
-     * The time the user signed up
+     * The user’s full name
      *
      * @return string|null
      */
