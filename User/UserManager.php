@@ -16,6 +16,7 @@ use Intercom\IntercomAbstractClient;
  * Manages users using Intercom API client
  *
  * @author Tiago Furtado <tfurtado@gmail.com>
+ * @since  0.1.0
  */
 class UserManager
 {
@@ -41,6 +42,8 @@ class UserManager
 
     /**
      * Sends a user to Intercom API
+     *
+     * @api
      *
      * @param UserInterface $user
      */
