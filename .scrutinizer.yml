@@ -1,0 +1,21 @@
+tools:
+    external_code_coverage:
+        timeout: 600
+    sensiolabs_security_checker: true
+    php_code_coverage: true
+    php_loc:
+        enabled: true
+    php_cpd:
+        enabled: true
+    php_sim: true
+    php_pdepend: true
+    php_analyzer: true
+    php_changetracking: true
+    php_code_sniffer:
+        config:
+            standard: "PSR2"
+    php_mess_detector: true
+
+filter:
+    excluded_paths:
+        - Tests/*
